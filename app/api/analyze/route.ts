@@ -60,7 +60,6 @@ export async function POST(request: Request) {
         { status: 500 }
       );
     }
-
     return NextResponse.json({
       analysis_id: savedAnalysis.id,
       analysis,
