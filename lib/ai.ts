@@ -27,7 +27,8 @@ export async function analyzeDeal(
   "riskScore": <number 0-100>,
   "nextActions": [<array of 3-5 specific, prioritized steps>],
   "stakeholderMap": [
-    {
+   
+ {
       "name": "<person name>",
       "role": "<their role>",
       "influence": "<high|medium|low>",
