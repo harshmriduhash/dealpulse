@@ -40,7 +40,6 @@ export async function analyzeDeal(
 }
 
 Input data: ${inputData}
-
 Provide ONLY valid JSON, no markdown formatting.`
 
   try {
