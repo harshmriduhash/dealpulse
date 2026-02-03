@@ -46,7 +46,7 @@ export async function POST(request: Request) {
         input_type: input_type,
         input_data: input_data,
         risk_score: analysis.riskScore,
-        next_actions: JSON.stringify(analysis.nextActions),
+        next_actions:  JSON.stringify(analysis.nextActions),
         stakeholder_map: JSON.stringify(analysis.stakeholderMap),
         follow_up_draft: analysis.followUpDraft,
         executive_summary: analysis.executiveSummary,
