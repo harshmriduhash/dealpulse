@@ -54,7 +54,6 @@ export async function POST(request: Request) {
       })
       .select()
       .single();
-
     if (saveError) {
       console.error("Error saving analysis:", saveError);
       return NextResponse.json(
