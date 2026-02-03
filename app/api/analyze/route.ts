@@ -34,7 +34,6 @@ export async function POST(request: Request) {
     if (dealError || !deal) {
       return NextResponse.json({ error: "Deal not found" }, { status: 404 });
     }
-
     // Run AI analysis
     const analysis = await analyzeDeal(input_type, input_data);
 
