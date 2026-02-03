@@ -56,4 +56,4 @@ export function DealList({ deals }: { deals: Deal[] }) {
       ))}
     </div>
   ); 
-}
+} 
