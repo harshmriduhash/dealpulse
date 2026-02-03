@@ -8,7 +8,8 @@ import { format } from "date-fns";
 
 export default async function DealDetailPage({
   params,
-}: {
+}: 
+ {
   params: { id: string };
 }) {
   const supabase = await createClient();
