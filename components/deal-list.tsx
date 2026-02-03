@@ -55,5 +55,5 @@ export function DealList({ deals }: { deals: Deal[] }) {
         </Card>
       ))}
     </div>
-  );
+  ); 
 }
