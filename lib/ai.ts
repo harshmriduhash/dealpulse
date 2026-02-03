@@ -68,5 +68,4 @@ Provide ONLY valid JSON, no markdown formatting.`
     console.error('AI analysis error:', error)
     throw new Error('Failed to analyze deal')
   }
-}
-
+} 
