@@ -1,6 +1,6 @@
 # DealPulse - AI-Powered Deal Intelligence Platform.
 
-
+This 
 DealPulse is a B2B SaaS application that helps enterprise sales teams analyze deals using AI. Upload meeting recordings, email threads, or notes to get instant risk scores, next actions, stakeholder maps, and follow-up emails.
 
 ## Features
